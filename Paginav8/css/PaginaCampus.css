@@ -1,0 +1,159 @@
+
+
+body{
+    background-image: url(img/Fondo\ degradado\ suave\ colorido\ _\ Vector\ Premium.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat';
+}
+
+
+.texcolor{
+  color: #ffffff !important;
+}
+.color1{background-color: #00dbb9;}.color2{background-color: #ff0b8f;}.color3{background-color: #ff6334;}
+.color4{background-color: #101928;}.color5{background-color: #ffa700 ;} .color6{background-color: #a9cad5 ;}.color7{background-color: #004b63 ;}
+
+.border1{border-color:  #00dbb9;}.border2{border-color:  #ff0b8f;}.border3{border-color:  #ff6334;}
+.border4{border-color:  #101928;}.border5{border-color:  #ffa700 ;} .border6{border-color:  #a9cad5 ;}.border7{border-color:  #004b63 ;}
+
+
+color-heder{
+    background-color: #ffa700
+}
+
+:hover.color-heder {
+    background-color: #00dbb9;
+   
+}
+
+
+.headerr{
+    font-weight: 600;
+    color: black;
+    
+}
+
+
+
+.tipoTex1{
+
+    color: #0adab9;
+    margin-top: 10rem;
+    font-weight: 600;
+
+}
+.tipoTex2{
+    color: #ffffff;
+    font-size: 50px;
+    margin: 0;
+    font-weight: 600;
+
+}
+.tipoTex3{
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 2rem;
+
+}
+
+.tipoTex4{
+
+    
+    color: #ffffff;
+    margin-top: 9rem;
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tipoTex4-1{
+
+  
+    color: #ffffff;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.REGISTRO{
+    text-decoration:none;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 0;
+    font-size: 20px;
+    padding: 0.5rem 2rem;
+    border-style:groove;
+    border-radius: 2rem;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logitos{
+    margin-top: 2rem;
+}
+
+.redSocial{
+    background: none;
+    border-style:none;
+    margin: 0.5rem 1rem;
+}
+.div5{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+
+
+
+@media (max-width:720px) {
+
+    .tipoTex1{
+
+        color: #0adab9;
+        margin-top: 1rem;
+    }
+
+
+    .tipoTex4{
+
+        font-weight: 600;
+        color: #ffffff;
+        margin-top: 2rem;
+        font-weight: 400;
+        font-style: italic;
+        justify-content: start;
+
+    }
+
+   
+    .tipoTex4-1{
+    
+        font-weight: 600;
+        color: #ffffff;
+        margin-top: 0;
+        font-weight: 400;
+        font-style: italic;
+        display: flex;
+        justify-content: start;
+        
+        align-items: center;
+    
+    }
+   
+
+}

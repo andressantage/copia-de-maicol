@@ -1,0 +1,233 @@
+{
+  "USUARIOS": [
+    {
+      "id": 1,
+      "usuario": "maicol",
+      "contraseña": "m1234",
+      "nombre": "Maicol Davis Estrada"
+    },
+    {
+      "id": 2,
+      "usuario": "marcela",
+      "contraseña": "12345678",
+      "nombre": "Marcela Bentaqurt"
+    },
+    {
+      "nombre": "Juan David Mayorga",
+      "usuario": "gg",
+      "contraseña": "123",
+      "id": 3
+    },
+    {
+      "nombre": "sara Mayorga",
+      "usuario": "sarita22",
+      "contraseña": "123456",
+      "id": 4
+    },
+    {
+      "nombre": "camilo Arenas",
+      "usuario": "camilito",
+      "contraseña": "147",
+      "id": 5
+    },
+    {
+      "nombre": "fabio Caceres",
+      "usuario": "fabiota",
+      "contraseña": "yyy123",
+      "id": 6
+    },
+    {
+      "nombre": "asas",
+      "usuario": "asas",
+      "contraseña": "asas",
+      "id": 7
+    }
+  ],
+  "CATEGORIAS": [
+    {
+      "id": 1,
+      "categoria": "Frutas"
+    },
+    {
+      "id": 2,
+      "categoria": "Verduras"
+    },
+    {
+      "id": 3,
+      "categoria": "Eletrodomesticos"
+    },
+    {
+      "id": 4,
+      "categoria": "Ropa Femenina"
+    },
+    {
+      "id": 5,
+      "categoria": "Ropa infantil"
+    }
+  ],
+  "Productos": [
+    {
+      "id": 1,
+      "nombre": "mango",
+      "precio": 500,
+      "stock": 5,
+      "categoria": "Frutas"
+    },
+    {
+      "id": 2,
+      "nombre": "manzana",
+      "precio": 1000,
+      "stock": 10,
+      "categoria": "Frutas"
+    },
+    {
+      "id": 3,
+      "nombre": "camisa",
+      "precio": 50000,
+      "stock": 15,
+      "categoria": "Ropa Femenina"
+    },
+    {
+      "id": 4,
+      "nombre": "pantalon",
+      "precio": 30000,
+      "stock": 20,
+      "categoria": "Ropa Femenina"
+    },
+    {
+      "id": 5,
+      "nombre": "camisa",
+      "precio": 20000,
+      "stock": 10,
+      "categoria": "Ropa infantil"
+    },
+    {
+      "id": 6,
+      "nombre": "TV",
+      "precio": 200000,
+      "stock": 2,
+      "categoria": "Eletrodomesticos"
+    },
+    {
+      "nombre": "manzana",
+      "precio": "2000",
+      "stock": 5,
+      "categoria": "Frutas",
+      "id": 7
+    },
+    {
+      "nombre": "manzana",
+      "precio": "2000",
+      "stock": 5,
+      "categoria": "Frutas",
+      "id": 8
+    },
+    {
+      "nombre": "peras",
+      "precio": "5000",
+      "stock": 5,
+      "categoria": "Verduras",
+      "id": 9
+    },
+    {
+      "nombre": "manzana",
+      "precio": "2000",
+      "stock": 5,
+      "categoria": "Frutas",
+      "id": 10
+    }
+  ],
+  "Clientes": [
+    {
+      "id": 1,
+      "imagen": "img/rinconC.jpg",
+      "nombre": "Andres Santiago Rincón Diaz",
+      "dirección": "Calle 5 # 28-35",
+      "teléfono": "3154317110"
+    },
+    {
+      "id": 2,
+      "imagen": "img/camiloC.jpg",
+      "nombre": "Camilo Andres Caballero",
+      "dirección": "Calle 5 # 28-35",
+      "teléfono": "3154317110"
+    },
+    {
+      "id": 3,
+      "imagen": "img/Edwing.jpg",
+      "nombre": "Edwing Stiven Mejia Saenz",
+      "dirección": "Calle 5 # 28-35",
+      "teléfono": "3154317110"
+    },
+    {
+      "id": 4,
+      "imagen": "img/esteban.jpeg",
+      "nombre": "Esteban Dario Ruiz Paredes",
+      "dirección": "Calle 5 # 28-35",
+      "teléfono": "3154317110"
+    },
+    {
+      "id": 5,
+      "imagen": "img/jairo.jpg",
+      "nombre": "Jairo Alonso Cardenas Blanco",
+      "dirección": "Calle 5 # 28-35",
+      "teléfono": "3154317110"
+    },
+    {
+      "imagen": "img/defaull.jpg",
+      "nombre": "maicol David Estrada ",
+      "dirección": "calle 68a #27-45",
+      "teléfono": "3155234698",
+      "id": 6
+    }
+  ],
+  "Facturas": [
+    {
+      "cliente": "Andres Santiago Rincón Diaz",
+      "empleado": "Marcela Bentaqurt",
+      "fecha": "25-06-23",
+      "Producto": "manzana",
+      "cantidad": "2",
+      "id": 2
+    },
+    {
+      "cliente": "Camilo Andres Caballero",
+      "empleado": "Marcela Bentaqurt",
+      "fecha": "2023-05-04",
+      "Producto": "camisa",
+      "cantidad": "2",
+      "id": 3
+    }
+  ],
+  "DetalleFactura": [
+    {
+      "id": 1,
+      "facturaId": "02-05-2023",
+      "productoId": "mango",
+      "cantidad": 2
+    },
+    {
+      "id": 2,
+      "facturaId": "04-05-2023",
+      "productoId": "manzana",
+      "cantidad": 5
+    }
+  ],
+  "Compras": [
+    {
+      "id": 1,
+      "fecha": "02-05-2023",
+      "producto": "mango",
+      "cantidad": 20,
+      "proveedor": "juanito"
+    },
+    {
+      "id": 2,
+      "fecha": "06-05-2023",
+      "producto": "manzana",
+      "cantidad": 20,
+      "proveedor": "juanito"
+    }
+  ],
+  "Reportes": []
+}
